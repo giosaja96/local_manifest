@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+ <remote name="mojito"
+                fetch="https://github.com" />
+ 
  <!-- Trees -->
  <project path="device/xiaomi/mojito" name="giosaja96/device_xiaomi_mojito" remote="github" revision="13" />
  <project path="vendor/xiaomi/mojito" name="giosaja96/vendor_xiaomi_mojito" remote="github" revision="13" />
