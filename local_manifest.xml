@@ -8,5 +8,8 @@
  <project path="device/xiaomi/mojito" name="giosaja96/device_xiaomi_mojito" remote="mojito" revision="13" />
  <project path="vendor/xiaomi/mojito" name="giosaja96/vendor_xiaomi_mojito" remote="mojito" revision="13" />
  <project path="kernel/xiaomi/mojito" name="giosaja96/android_kernel_xiaomi_mojito" remote="mojito" revision="inline-rom" />
+
+<remove-project name="android_packages_apps_Aperture" />
+<project path="packages/apps/Aperture" name="giosaja96/android_packages_apps_Aperture" remote="mojito" revision="lineage-20.0" /> 
  
 </manifest>
