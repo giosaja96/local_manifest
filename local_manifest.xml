@@ -13,7 +13,7 @@
  <project path="vendor/xiaomi/mojito" name="giosaja96/vendor_xiaomi_mojito" remote="mojito" revision="13" />
  <project path="kernel/xiaomi/mojito" name="fiqri19102002/android_kernel_xiaomi_mojito" remote="mojito" revision="inline-rom" />
  <project path="hardware/xiaomi" name="giosaja96/android_hardware_xiaomi" remote="mojito" revision="lineage-20" clone-depth="1" />
- <project path="vendor/qcom/opensource/dataservices" name="giosaja96/android_vendor_qcom_opensource_dataservices" remote="mojito" revision="lineage-20">
+ <project path="vendor/qcom/opensource/dataservices" name="giosaja96/android_vendor_qcom_opensource_dataservices" remote="mojito" revision="lineage-20" />
  <!--project path="prebuilts/clang/host/linux-x86/clang-r487747c" name="android_prebuilts_clang_host_linux-x86_clang-r487747c" remote="crdroid-gitlab" revision="13.0" /-->
 
 
