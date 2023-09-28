@@ -12,7 +12,5 @@
  <project path="kernel/xiaomi/mojito" name="fiqri19102002/android_kernel_xiaomi_mojito" remote="mojito" revision="inline-rom" />
  
 
-<remove-project name="android_packages_apps_Aperture" />
-<project path="packages/apps/Aperture" name="giosaja96/android_packages_apps_Aperture" remote="mojito" revision="lineage-20.0" /> 
- 
+
 </manifest>
