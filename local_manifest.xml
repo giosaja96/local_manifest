@@ -26,8 +26,8 @@
 <remove-project name="AICP/frameworks_base" />
 <remove-project name="AICP/frameworks_av" />
 
-<project path="frameworks/base" name="aicp_frameworks_base" remote="me" revision="t13.0" />
-<project path="frameworks/av" name="aicp_frameworks_av" remote="me" revision="t13.0" />
+<project path="frameworks/base" name="frameworks_base" remote="me" revision="t13.0" />
+<project path="frameworks/av" name="frameworks_av" remote="me" revision="t13.0" />
 
  <!-- Vendor stuff -->
  <remove-project name="AICP/vendor_aicp" />
