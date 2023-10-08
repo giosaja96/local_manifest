@@ -9,7 +9,7 @@
                 fetch="https://github.com/LineageOS" />
  
  <!-- Trees -->
- <project path="device/xiaomi/mojito" name="device_xiaomi_mojito" remote="me" revision="aicp" />
+ <project path="device/xiaomi/mojito" name="device_xiaomi_mojito" remote="me" revision="aicp_1" />
  <project path="vendor/xiaomi/mojito" name="vendor_xiaomi_mojito" remote="me" revision="13" />
  <project path="kernel/xiaomi/mojito" name="android_kernel_xiaomi_mojito" remote="fiqri" revision="inline-rom" />
  
