@@ -14,9 +14,6 @@
  <project path="kernel/xiaomi/mojito" name="android_kernel_xiaomi_mojito" remote="fiqri" revision="inline-rom" />
  
  <!-- Hardware Stuff -->
- <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="me" revision="lineage-20" clone-depth="1" />
- <project path="hardware/interfaces" name="android_hardware_interfaces" remote="me" revision="lineage-20.0" />
- 
  <remove-project name="LineageOS/android_hardware_qcom_audio" />
  <remove-project name="LineageOS/android_hardware_qcom_display" />
  <remove-project name="LineageOS/android_hardware_qcom_media" />
