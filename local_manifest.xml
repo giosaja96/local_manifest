@@ -5,6 +5,8 @@
                 fetch="https://github.com" />
  <remote  name="web" 
                 fetch="https://github.com/LineageOS" />
+ <remote  name="Joker-V2" 
+                fetch="https://gitlab.com/Joker-V2" />
  
  <!-- Trees -->
  <project path="device/xiaomi/mojito" name="giosaja96/device_xiaomi_mojito" remote="mojito" revision="bliss" />
@@ -13,7 +15,7 @@
  <project path="hardware/xiaomi" name="giosaja96/android_hardware_xiaomi" remote="mojito" revision="lineage-20" clone-depth="1" />
  
 
-
+<project path="prebuilts/clang/host/linux-x86/clang-r498229" name="prebuilts_clang_host_linux-x86_clang-r498229" remote="Joker-V2" revision="master" />
 <remove-project name="android_vendor_qcom_opensource_dataservices" />
 <project path="vendor/qcom/opensource/dataservices" name="giosaja96/android_vendor_qcom_opensource_dataservices" remote="mojito" revision="lineage-20.0" />
 <remove-project name="android_external_chromium-webview_prebuilt_arm64" />
