@@ -9,33 +9,11 @@
                 fetch="https://github.com/LineageOS" />
  
  <!-- Trees -->
- <project path="device/xiaomi/mojito" name="device_xiaomi_mojito" remote="me" revision="aicp_1" />
+ <project path="device/xiaomi/mojito" name="device_xiaomi_mojito" remote="me" revision="evox" />
  <project path="vendor/xiaomi/mojito" name="vendor_xiaomi_mojito" remote="me" revision="13" />
  <project path="kernel/xiaomi/mojito" name="android_kernel_xiaomi_mojito" remote="fiqri" revision="inline-rom" />
  
  <!-- Hardware Stuff -->
- <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="me" revision="lineage-20" /> 
-
- <remove-project name="LineageOS/android_hardware_qcom_audio" />
- <remove-project name="LineageOS/android_hardware_qcom_display" />
- <remove-project name="LineageOS/android_hardware_qcom_media" />
-
- <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" remote="los" revision="lineage-20.0-caf-sm8150" />
- <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" remote="los" revision="lineage-20.0-caf-sm8150" />
- <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" remote="los" revision="lineage-20.0-caf-sm8150" />
- 
-<!-- Framework Stuff -->
-<remove-project name="AICP/frameworks_base" />
-<remove-project name="AICP/frameworks_av" />
-
-<project path="frameworks/base" name="frameworks_base" remote="me" revision="t13.0" />
-<project path="frameworks/av" name="frameworks_av" remote="me" revision="t13.0" />
-
- <!-- Vendor stuff -->
- <remove-project name="AICP/vendor_aicp" />
- <remove-project name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" />
-
- <project path="vendor/aicp" name="vendor_aicp" remote="me" revision="t13.0" />
- <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="los" revision="lineage-20.0" />
+ <!--project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="me" revision="lineage-20" /--> 
 
 </manifest>
