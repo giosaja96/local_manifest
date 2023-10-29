@@ -14,6 +14,6 @@
  <project path="kernel/xiaomi/mojito" name="android_kernel_xiaomi_mojito" remote="fiqri" revision="inline-rom" />
  
  <!-- Hardware Stuff -->
- <!--project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="me" revision="lineage-20" /--> 
+ <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="me" revision="lineage-20" /> 
 
 </manifest>
