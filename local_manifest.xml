@@ -12,7 +12,7 @@
  
  <!-- Trees -->
  <project path="device/xiaomi/mojito" name="device_xiaomi_mojito" remote="me" revision="cipher" />
- <project path="vendor/xiaomi/mojito" name="vendor_xiaomi_mojito" remote="me" revision="cipher" />
+ <project path="vendor/xiaomi/mojito" name="vendor_xiaomi_mojito" remote="me" revision="14" />
  <project path="kernel/xiaomi/mojito" name="android_kernel_xiaomi_mojito" remote="fiqri" revision="inline-rom" /> 
  
  <!-- Clang -->
